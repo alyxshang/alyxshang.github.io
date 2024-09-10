@@ -1,0 +1,27 @@
+pfp: https://avatars.githubusercontent.com/u/179976644?v=4
+title: Alyx Shang
+description: Alyx Shang's official website
+prod_url: ""
+dev_url: ""
+copyFiles: true=>CNAME|assets
+tlDomain: https://alyxshang.boo
+updateFreq: weekly
+hasLoopContent: "false"
+loopContentDirs: posts
+socialsHeading: SOCIALS
+navHeading: LINKS
+bannerUrl: https://alyxshang.boo/spark-cdn/images/site//banner/banner.png
+icon_manifest: https://alyxshang.boo/spark-cdn/images/site/icons/manifest.json
+icon_72_url: https://alyxshang.boo/spark-cdn/images/site/icons/apple-icon-72x72.png
+icon_76_url: https://alyxshang.boo/spark-cdn/images/site/icons/apple-icon-76x76.png
+icon_114_url: https://alyxshang.boo/spark-cdn/images/site/icons/apple-icon-114x114.png
+icon_120_url: https://alyxshang.boo/spark-cdn/images/site/icons/apple-icon-120x120.png
+icon_144_url: https://alyxshang.boo/spark-cdn/images/site/icons/apple-icon-144x144.png
+icon_152_url: https://alyxshang.boo/spark-cdn/images/site/icons/apple-icon-152x152.png
+icon_180_url: https://alyxshang.boo/spark-cdn/images/site/icons/apple-icon-180x180.png
+icon_192_url: https://alyxshang.boo/spark-cdn/images/site/icons/android-icon-192x192.png
+icon_32_url: https://alyxshang.boo/spark-cdn/images/site/icons/favicon-32x32.png
+icon_96_url: https://alyxshang.boo/spark-cdn/images/site/icons/favicon-96x96.png
+icon_16_url: https://alyxshang.boo/spark-cdn/images/site/icons/favicon-16x16.png
+icon_57_url: https://alyxshang.boo/spark-cdn/images/site/icons/apple-icon-57x57.png
+icon_60_url: https://alyxshang.boo/spark-cdn/images/site/icons/apple-icon-60x60.png
