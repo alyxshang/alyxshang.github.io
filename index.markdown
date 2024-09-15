@@ -1,6 +1,7 @@
 ---
 layout: "layouts/page.liquid"
 title: "Home"
+date: "15/09/2024"
 description: "Alyx Shang's official website"
 ---
 
