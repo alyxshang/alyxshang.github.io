@@ -1,6 +1,7 @@
 ---
 layout: "layouts/page.liquid"
 title: "Socials"
+date: "15/09/2024"
 description: "Where to contact me"
 keywords: "alyxshang contact"
 ---
