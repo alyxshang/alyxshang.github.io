@@ -1,6 +1,7 @@
 ---
 layout: "layouts/page.liquid"
 title: "About me"
+date: "15/09/2024"
 description: "A introduction"
 keywords: "alyxshang about"
 ---
