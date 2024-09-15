@@ -3,7 +3,7 @@ title: Alyx Shang
 description: Alyx Shang's official website
 prod_url: ""
 dev_url: ""
-copyFiles: true=>CNAME|assets
+copyFiles: true=>CNAME
 tlDomain: https://alyxshang.boo
 updateFreq: weekly
 hasLoopContent: "false"
