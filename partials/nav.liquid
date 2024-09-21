@@ -1,6 +1,6 @@
-<h2 class="sectionHead">{{ site.navHeading }}</h2>
+<h2 class="sectionHead">{{ site.user_config.navHeading }}</h2>
 <ul class="nav">
  {% for item in data["nav"] %}
-  <li class="nav"><a class="nav" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a></li>
+  <li class="nav"><a class="nav" href="{{ baseurl }}{{ item.link }}">{{ item.name }}</a></li>
  {% endfor %}
 </ul>

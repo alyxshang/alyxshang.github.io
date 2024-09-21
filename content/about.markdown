@@ -1,5 +1,5 @@
 ---
-layout: "layouts/page.liquid"
+layout: "page"
 title: "About me"
 date: "15/09/2024"
 description: "A introduction"

@@ -1,0 +1,6 @@
+- name: About
+  link: /content/about
+- name: Contact
+  link: /content/socials
+- name: Blog
+  link: /content/blog
