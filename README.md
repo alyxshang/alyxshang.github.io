@@ -1,5 +1,7 @@
 # MY WEBSITE :black_heart:
 
+![Mandy CI](https://github.com/alyxshang/alyxshang.github.io/actions/workflows/mandy.yml/badge.svg)
+
 ***My website. :black_heart:***
 
 ## ABOUT :books:
