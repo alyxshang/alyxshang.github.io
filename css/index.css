@@ -2,9 +2,14 @@
 Personal Website by Alyx Shang.
 Licensed under the FSL v1.
 */
-/* SETTINGS START */
-/* SETTINGS END */
-/* GENERAL START */
+/*
+Personal Website by Alyx Shang.
+Licensed under the FSL v1.
+*/
+/*
+Personal Website by Alyx Shang.
+Licensed under the FSL v1.
+*/
 html {
   top: 0;
   right: 0;
@@ -55,8 +60,6 @@ div.container {
   flex-direction: row;
 }
 
-/* GENERAL END */
-/* ME COLUMN START */
 div.me {
   margin: 0px;
   padding: 0px;
@@ -145,8 +148,6 @@ div.section {
   background-color: transparent;
 }
 
-/* ME COLUMN END */
-/* CONTENT START */
 div.content {
   margin: 0px;
   padding: 0px;
@@ -193,6 +194,20 @@ p {
   padding-right: 0px;
 }
 
+a {
+  font-size: 20px;
+  font-family: "NeueMontrealLight";
+  color: #FFFFFF;
+  text-decoration: underline;
+  margin: 0px;
+  padding: 0px;
+  transition-duration: 0.6s;
+}
+
+a.socials, a.nav, a {
+  color: #808080;
+}
+
 img {
   padding: 0px;
   margin-top: 0px;
@@ -235,8 +250,10 @@ li::before {
   padding-right: 5px;
 }
 
-/* CONTENT END */
-/* MOBILE SECTION START */
+/*
+Personal Website by Alyx Shang.
+Licensed under the FSL v1.
+*/
 @media screen and (max-width: 800px) {
   div.container {
     flex-direction: column;
@@ -245,4 +262,3 @@ li::before {
     margin-bottom: 20px;
   }
 }
-/* MOBILE SECTION END */
