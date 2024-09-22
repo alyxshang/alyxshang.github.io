@@ -16,5 +16,10 @@ jobs:
         run: wget https://github.com/alyxshang/mandy/releases/download/v.$MANDY_VER/mandy-$MANDY_VER-x86_64-unknown-linux-gnu
       - name: "Rename Mandy and change permissions."
         run: mv mandy-0.1.0-x86_64-unknown-linux-gnu mandy && chmod a+x mandy
-      - name: "Run Mandy."
+      - name: "Compile the Mandy project."
         run: ./mandy -c .
+      - name: "Deploy"
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: dist
