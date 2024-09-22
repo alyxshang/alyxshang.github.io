@@ -204,7 +204,7 @@ a {
   transition-duration: 0.6s;
 }
 
-a.socials, a.nav, a {
+a.socials:hover, a.nav:hover, a:hover {
   color: #808080;
 }
 
