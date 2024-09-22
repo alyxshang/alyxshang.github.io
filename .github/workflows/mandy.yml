@@ -2,15 +2,20 @@ name: CDN CI
 on:
   push:
     branches: [ main ]
+env:
+  MANDY_ENV: production
+  MANDY_VER: 0.1.0
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: "Updates!"
+        run: sudo apt update && sudo apt upgrade -y
       - name: "Install WGet."
         run: sudo apt install wget -y
       - name: "Fetch Mandy."
-        run: wget https://github.com/alyxshang/mandy/releases/download/v.0.1.0/mandy-0.1.0-x86_64-unknown-linux-gnu
+        run: wget https://github.com/alyxshang/mandy/releases/download/v.$MANDY_VER/mandy-$MANDY_VER-x86_64-unknown-linux-gnu
       #- name: "Run Mandy."
       #  run: chmod a+x mandy-0.1.0-x86_64-unknown-linux-gnu && ./mandy-0.1.0-x86_64-unknown-linux-gnu -v
 
