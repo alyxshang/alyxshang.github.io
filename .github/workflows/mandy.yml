@@ -14,6 +14,7 @@ jobs:
         run: sudo apt install wget -y
       - name: "Fetch Mandy."
         run: wget https://github.com/alyxshang/mandy/releases/download/v.$MANDY_VER/mandy-$MANDY_VER-x86_64-unknown-linux-gnu
-      #- name: "Run Mandy."
-      #  run: chmod a+x mandy-0.1.0-x86_64-unknown-linux-gnu && ./mandy-0.1.0-x86_64-unknown-linux-gnu -v
-
+      - name: "Rename Mandy and change permissions."
+        run: mv mandy-0.1.0-x86_64-unknown-linux-gnu mandy && chmod a+x mandy
+      - name: "Run Mandy."
+        run: ./mandy -c .
