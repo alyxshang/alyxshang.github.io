@@ -1,0 +1,13 @@
+/*
+Personal Website by Alyx Shang.
+Licensed under the FSL v1.
+*/
+
+@media screen and (max-width: 800px) {
+    div.container {
+        flex-direction: column;
+    }
+    div.me {
+        margin-bottom: 20px;
+    }
+}
