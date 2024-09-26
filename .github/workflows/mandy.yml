@@ -5,7 +5,6 @@ on:
 env:
   MANDY_ENV: production
   MANDY_VER: 0.1.0
-  MANDY_URL: https://github.com/alyxshang/mandy.git
 jobs:
   build_and_test:
     runs-on: ubuntu-latest
@@ -19,7 +18,7 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: install
-          args: --git $MANDY_URL --tag v.$MANDY_VER
+          args: --git https://github.com/alyxshang/mandy.git --tag v.$MANDY_VER
       - name: "Build the Mandy project."
         run: mandy -c .
       - name: "Deploy"
