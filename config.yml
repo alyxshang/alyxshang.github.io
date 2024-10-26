@@ -9,6 +9,7 @@ has_loop_content: false
 tl_domain: "https://alyxshang.boo"
 seo: true
 user_config:
+  fedi: https://blahaj.zone/@alyxshang
   navHeading: LINKS
   blog_heading: My Blog
   socialsHeading: SOCIALS
