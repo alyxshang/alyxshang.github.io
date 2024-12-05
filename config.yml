@@ -3,7 +3,8 @@ description: Alyx Shang's official website
 prod_url: ""
 dev_url: ""
 dist_dir: "dist"
-copy_files: false
+copy_files: true
+copy_entities: ["CNAME"]
 has_loop_content: false
 tl_domain: "https://alyxshang.boo"
 seo: true
