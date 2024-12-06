@@ -20,8 +20,3 @@ jobs:
           args: --git https://github.com/alyxshang/mandy.git --tag v.0.1.0
       - name: "Build the Mandy project."
         run: mandy -c .
-      - name: "Deploy"
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
-        with:
-          branch: gh-pages
-          folder: dist
