@@ -3,7 +3,8 @@ on:
   push:
     branches: [ main ]
 env:
-  MANDY_ENV: production
+  MANDY_ENV: "production"
+  MANDY_VERSION: "0.1.0"
 jobs:
   build_and_test:
     runs-on: ubuntu-latest
@@ -12,11 +13,16 @@ jobs:
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
+
+      - name: "Install WGet."
+        run: |
+          sudo apt update
+          sudo apt install wget
           
       - name: "Install Mandy."
-        uses: actions-rs/cargo@v1
-        with:
-          command: install
-          args: --git https://github.com/alyxshang/mandy.git --tag v.0.1.0
+        run: wget https://github.com/alyxshang/mandy/releases/download/v.${{ env.MANDY_VERSION }}/mandy-linux-v.${{ env.MANDY_VERSION }}
+        
       - name: "Build the Mandy project."
-        run: mandy -c .
+        run: |
+          chmod a+x mandy-linux-v.${{ env.MANDY_VERSION }}
+          ./mandy-linux-v.${{ env.MANDY_VERSION }} -c .
