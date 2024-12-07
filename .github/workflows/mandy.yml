@@ -26,3 +26,9 @@ jobs:
         run: |
           chmod a+x mandy-linux-v.${{ env.MANDY_VERSION }}
           ./mandy-linux-v.${{ env.MANDY_VERSION }} -c .
+
+      - name: "Deploy the compiled site."
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: dist
